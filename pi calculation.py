@@ -14,7 +14,7 @@ size = comm.Get_size()
 rank = comm.Get_rank()
 
 if rank == 0:
-    print("Plithos epanalhpsewn: ")
+    print("Enter repeats n: ")
     n = int(input())
 else:
     n = None
